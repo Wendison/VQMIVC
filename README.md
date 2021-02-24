@@ -1,5 +1,5 @@
 # MIVC
-Official implementation of our proposed MIVC
+Official implementation of MIVC
 
 ## Code: coming soon!
 ## audio samples: https://wendison.github.io/MIVC-demo/
