@@ -1,6 +1,6 @@
-# MIVC
-Official implementation of MIVC
+# VQMIVC
+Official implementation of VQMIVC
 
 ## Code: coming soon!
 ## audio samples: https://wendison.github.io/MIVC-demo/
-## Pretrained models: coming soon!
+
