@@ -3,7 +3,9 @@
 
 <p align="center">
 	<img src='./diagram/architecture.png' width=500 >
-	Diagram of the proposed VQMIVC system.
+</p>
+<p align="center">
+Diagram of the proposed VQMIVC system.
 </p>
 
 ## Requirements
