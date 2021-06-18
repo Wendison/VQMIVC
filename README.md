@@ -5,8 +5,9 @@
 	<img src='./diagram/architecture.png' width=500 >
 </p>
 
-**Diagram of the VQMIVC system.**
-
+<p align="center">
+Diagram of the VQMIVC system.
+</p>
 
 ## Requirements
 Python 3.6 is used, other requirements are listed in 'requirements.txt'
