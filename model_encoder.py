@@ -4,7 +4,6 @@ import torch.nn.functional as F
 import math
 
 
-
 class ConvNorm(torch.nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size=1, stride=1,
                  padding=None, dilation=1, bias=True, w_init_gain='linear'):

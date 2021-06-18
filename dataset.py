@@ -5,8 +5,6 @@ import json
 import random
 from pathlib import Path
 import os
-import random
-from espnet.nets.pytorch_backend.nets_utils import pad_list
 
 
 class CPCDataset_sameSeq(Dataset):

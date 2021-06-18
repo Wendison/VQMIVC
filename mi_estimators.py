@@ -1,9 +1,6 @@
 '''
-Copied and modified from: https://github.com/Linear95/CLUB
+Modified from: https://github.com/Linear95/CLUB
 '''
-
-import numpy as np
-import math
 
 import torch 
 import torch.nn as nn

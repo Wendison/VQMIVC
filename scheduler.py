@@ -1,8 +1,6 @@
 import torch.optim as optim
 
 from collections import Counter
-import warnings
-
 
 class WarmupScheduler(optim.lr_scheduler._LRScheduler):
     def __init__(self, optimizer, warmup_epochs, initial_lr, max_lr, milestones, gamma=0.1, last_epoch=-1):
