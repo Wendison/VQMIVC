@@ -1,4 +1,5 @@
 ## VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion (Interspeech 2021)
+### [Paper](https://arxiv.org/abs/) | [Pre-trained models](https://arxiv.org/abs/) | [Demo](https://wendison.github.io/VQMIVC-demo/)
 <img src='./diagram/architecture.png' width=500>
 
 ## Requirements
