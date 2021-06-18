@@ -1,13 +1,9 @@
-# VQMIVC_VoiceConversion
-## Environment
-*  python 3.6.10
-*  torch 1.3.1
-*  chainer 6.0.0
-*  apex 0.1
-*  numpy 1.19.1
-*  kaldiio 2.15.1
-*  librosa 0.8.0
+# VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion (Interspeech 2021)
+<img src='./diagram/architecture.png'>
 
+## Requirements
+Python 3.6 is used, other requirements are listed in 'requirements.txt'
+		pip install -r requirements.txt
 ## Training and inference:
 *  Step1. Data preparation & preprocessing
 1. put VCTK corpus under directory: 'Dataset/'
