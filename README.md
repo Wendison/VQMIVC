@@ -9,6 +9,11 @@
 Diagram of the VQMIVC system.
 </p>
 
+### TODO
+
+- [ ] Quick start with pre-trained models
+
+
 ## Requirements
 Python 3.6 is used, other requirements are listed in 'requirements.txt'
 
