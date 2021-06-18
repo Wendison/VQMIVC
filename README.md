@@ -31,7 +31,7 @@ Python 3.6 is used, other requirements are listed in 'requirements.txt'
 	
 		python train.py use_CSMI=True use_CPMI=True use_PSMI=True
 
-3. Training w/o MIM:
+3. Training without MIM:
 		
 		python train.py use_CSMI=False use_CPMI=False use_PSMI=False 
 
