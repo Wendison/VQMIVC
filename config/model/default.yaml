@@ -1,0 +1,25 @@
+model:
+    encoder:
+        in_channels: 80
+        channels: 512
+        n_embeddings: 512
+        z_dim: 64
+        c_dim: 256
+    cpc:
+        n_prediction_steps: ${training.n_prediction_steps}
+        n_speakers_per_batch: ${training.n_speakers_per_batch}
+        n_utterances_per_speaker: ${training.n_utterances_per_speaker}
+        n_negatives: ${training.n_negatives}
+        z_dim: ${model.encoder.z_dim}
+        c_dim: ${model.encoder.c_dim}
+    cpc_model:
+        nPredicts: 12
+        dimOutputAR: 256
+        dimOutputEncoder: 64
+        negativeSamplingExt: 64
+        rnnMode: ffd
+        dropout: False
+        speakerEmbedding: 0
+        nSpeakers: 0
+        sizeInputSeq: 64
+

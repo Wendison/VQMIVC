@@ -1,0 +1,20 @@
+training:
+    sample_frames: 128
+    batch_size: 256
+    n_speakers_per_batch: 256
+    n_utterances_per_speaker: 8
+    n_prediction_steps: 6
+    n_negatives: 10
+    n_epochs: 500
+    scheduler:
+        warmup_epochs: 10
+        initial_lr: 1e-6
+        max_lr: 1e-3
+        gamma: 0.5
+        milestones:
+            - 300
+            - 400
+            - 500
+    checkpoint_interval: 50
+    n_workers: 4
+    log_interval: 50
