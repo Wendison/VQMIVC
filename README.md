@@ -2,6 +2,8 @@
 
 ### [Paper](https://arxiv.org/abs/2106.10132) | [Pre-trained models](https://drive.google.com/file/d/1Flw6Z0K2QdRrTn5F-gVt6HdR9TRPiaKy/view?usp=sharing) | [Demo](https://wendison.github.io/VQMIVC-demo/)
 
+This paper proposes a speech representation disentanglement framework for one-shot voice conversion, which performs conversion across arbitrary speakers with only a single target-speaker utterance for reference. Existing work generally ignores the correlation between different speech representations during training, which causes leakage of content information into the speaker representation and thus degrades VC performance. To alleviate this issue, we employ vector quantization with contrastive predictive coding (VQCPC) for content encoding and introduce mutual information (MI) as the correlation metric during training, to achieve proper disentanglement of content, speaker and pitch representations, by reducing their inter-dependencies in an *unsupervised* manner. Experimental results reflect the superiority of the proposed method in learning effective disentangled speech representations for retaining source linguistic content and intonation variations, while capturing target speaker characteristics. 
+
 <p align="center">
 	<img src='./diagram/architecture.png' width=500 >
 </p>
