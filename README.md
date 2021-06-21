@@ -7,9 +7,6 @@ This paper proposes a speech representation disentanglement framework for one-sh
 <p align="center">
 	<img src='./diagram/architecture.png' width=500 >
 </p>
-<p align="center">
-Diagram of the VQMIVC system.
-</p>
 
 
 ## TODO
