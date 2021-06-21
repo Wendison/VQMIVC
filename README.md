@@ -5,7 +5,7 @@
 This paper proposes a speech representation disentanglement framework for one-shot voice conversion, which performs conversion across arbitrary speakers with only a single target-speaker utterance for reference. Vector quantization with contrastive predictive coding (VQCPC) is used for content encoding and mutual information (MI) is introduced as the correlation metric during training, to achieve proper disentanglement of content, speaker and pitch representations, by reducing their inter-dependencies in an *unsupervised* manner. 
 
 <p align="center">
-	<img src='./diagram/architecture.png' width=500 >
+	<img src='./diagram/diagram.png' width=500 >
 </p>
 
 
