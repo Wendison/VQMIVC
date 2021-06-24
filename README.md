@@ -46,9 +46,8 @@ Python 3.6 is used, other requirements are listed in 'requirements.txt'
 		
 
 ## Acknowledgements:
-We would like to thank the following wonderful code:
-1. The content encoder is borrowed from [VectorQuantizedCPC](https://github.com/bshall/VectorQuantizedCPC), which also inspires the negative sampling within-utterance for CPC.
-2. The speaker encoder is borrowed from [AdaIN-VC](https://github.com/jjery2243542/adaptive_voice_conversion)
-3. The decoder is modified from [AutoVC](https://github.com/auspicious3000/autovc)
-4. Audio features extraction is based on [espnet](https://github.com/espnet/espnet) and [Pyworld](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder)
+* The content encoder is borrowed from [VectorQuantizedCPC](https://github.com/bshall/VectorQuantizedCPC), which also inspires the negative sampling within-utterance for CPC.
+* The speaker encoder is borrowed from [AdaIN-VC](https://github.com/jjery2243542/adaptive_voice_conversion)
+* The decoder is modified from [AutoVC](https://github.com/auspicious3000/autovc)
+* Audio features extraction is based on [espnet](https://github.com/espnet/espnet) and [Pyworld](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder)
 
