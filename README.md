@@ -17,7 +17,9 @@ This paper proposes a speech representation disentanglement framework for one-sh
 Python 3.6 is used, other requirements are listed in 'requirements.txt'
 
 	pip install -r requirements.txt
-	
+
+ParallelWaveGAN is used as the vocoder, so please install [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) to try the pre-trained models.
+
 ## Training and inference:
 *  Step1. Data preparation & preprocessing
 1. Put VCTK corpus under directory: 'Dataset/'
