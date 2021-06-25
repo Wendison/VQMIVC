@@ -9,8 +9,8 @@ This paper proposes a speech representation disentanglement framework for one-sh
 </p>
 
 
-## TODO
-- [ ] Quick start with pre-trained models
+## Update
+- add 'Quick start' part
 
 
 ## Requirements
@@ -19,6 +19,18 @@ Python 3.6 is used, other requirements are listed in 'requirements.txt'
 	pip install -r requirements.txt
 
 ParallelWaveGAN is used as the vocoder, so please install [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) to try the pre-trained models.
+
+## Quick start with pre-trained model
+Download [pre-trained models](https://drive.google.com/file/d/1Flw6Z0K2QdRrTn5F-gVt6HdR9TRPiaKy/view?usp=sharing), then run
+	
+	python convert_example.py -s {source-wav} -r {reference-wav} -m {model-path} -c {converted-wavs-save-path}
+	
+For example:
+
+	python convert_example.py -s test_wavs/p225_038.wav -r test_wavs/p334_047.wav -m checkpoints/useCSMITrue_useCPMITrue_usePSMITrue_useAmpTrue/VQMIVC-model.ckpt-500.pt -c converted
+	
+The converted wav is put in 'converted' directory.
+	
 
 ## Training and inference:
 *  Step1. Data preparation & preprocessing
