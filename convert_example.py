@@ -19,14 +19,6 @@ import pyworld as pw
 
 import argparse
 
-def select_wavs(paths, min_dur=2, max_dur=8):
-    pp = []
-    for p in paths:
-        x, fs = sf.read(p)
-        if len(x)/fs>=min_dur and len(x)/fs<=8:
-            pp.append(p)
-    return pp
-
 
 def extract_logmel(wav_path, mean, std, sr=16000):
     # wav, fs = librosa.load(wav_path, sr=sr)
