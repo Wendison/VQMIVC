@@ -23,11 +23,11 @@ ParallelWaveGAN is used as the vocoder, so please install [ParallelWaveGAN](http
 ## Quick start with pre-trained models
 Download [pre-trained models](https://drive.google.com/file/d/1Flw6Z0K2QdRrTn5F-gVt6HdR9TRPiaKy/view?usp=sharing), then run
 	
-	python convert_example.py -s {source-wav} -r {reference-wav} -m {model-path} -c {converted-wavs-save-path}
+	python convert_example.py -s {source-wav} -r {reference-wav} -c {converted-wavs-save-path} -m {model-path} 
 	
 For example:
 
-	python convert_example.py -s test_wavs/p225_038.wav -r test_wavs/p334_047.wav -m checkpoints/useCSMITrue_useCPMITrue_usePSMITrue_useAmpTrue/VQMIVC-model.ckpt-500.pt -c converted
+	python convert_example.py -s test_wavs/p225_038.wav -r test_wavs/p334_047.wav -c converted -m checkpoints/useCSMITrue_useCPMITrue_usePSMITrue_useAmpTrue/VQMIVC-model.ckpt-500.pt 
 	
 The converted wav is put in 'converted' directory.
 	
