@@ -57,7 +57,7 @@ def extract_logmel(wav_path, mean, std, sr=16000):
     lf0[nonzeros_indices] = (lf0[nonzeros_indices] - mean) / (std + 1e-8)
     return mel, lf0
 
-# @hydra.main(config_path="config/convert.yaml")
+
 def convert(args):
     src_wav_path = args.source_wav
     ref_wav_path = args.reference_wav
@@ -101,21 +101,19 @@ def convert(args):
         spk_emb = encoder_spk(ref_mel)
         output = decoder(z, lf0_embs, spk_emb)
         
-        logmel = output.squeeze(0).cpu().numpy()
-        feat_writer[out_filename+'_converted'] = logmel
+        feat_writer[out_filename+'_converted'] = output.squeeze(0).cpu().numpy()
         feat_writer[out_filename+'_source'] = src_mel.squeeze(0).cpu().numpy().T
         feat_writer[out_filename+'_reference'] = ref_mel.squeeze(0).cpu().numpy().T
     
     feat_writer.close()
     print('synthesize waveform...')
     cmd = ['parallel-wavegan-decode', '--checkpoint', \
-           '/data/Experiments/VQMIVC-main/vocoder/checkpoint-3000000steps.pkl', \
+           './vocoder/checkpoint-3000000steps.pkl', \
            '--feats-scp', f'{str(out_dir)}/feats.1.scp', '--outdir', str(out_dir)]
     subprocess.call(cmd)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    # parser.add_argument('--net_type', '-nt', type=str, default='dnn')
     parser.add_argument('--source_wav', '-s', type=str, required=True)
     parser.add_argument('--reference_wav', '-r', type=str, required=True)
     parser.add_argument('--converted_wav_path', '-c', type=str, default='converted')
