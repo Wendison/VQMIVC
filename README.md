@@ -9,10 +9,6 @@ This paper proposes a speech representation disentanglement framework for one-sh
 </p>
 
 
-## Update
-- add 'Quick start' part
-
-
 ## Requirements
 Python 3.6 is used, other requirements are listed in 'requirements.txt'
 
