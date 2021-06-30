@@ -66,3 +66,14 @@ The converted wav is put in 'converted' directory.
 * Estimation of mutual information is modified from [CLUB](https://github.com/Linear95/CLUB);
 * Speech features extraction is based on [espnet](https://github.com/espnet/espnet) and [Pyworld](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder).
 
+## Citation
+If the code is used in your research, please star our repo and cite our paper:
+```
+@article{wang2021vqmivc,
+  title={VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion},
+  author={Wang, Disong and Deng, Liqun and Yeung, Yu Ting and Chen, Xiao and Liu, Xunying and Meng, Helen},
+  journal={arXiv preprint arXiv:2106.10132},
+  year={2021}
+}
+```
+
