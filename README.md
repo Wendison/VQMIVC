@@ -10,14 +10,13 @@ This paper proposes a speech representation disentanglement framework for one-sh
 
 
 ## Requirements
-Python 3.6 is used, other requirements are listed in 'requirements.txt'
+Python 3.6 is used, install [apex](https://github.com/NVIDIA/apex) for speeding up training, other requirements are listed in 'requirements.txt'
 
 	pip install -r requirements.txt
 
-ParallelWaveGAN is used as the vocoder, so please install [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) to try the pre-trained models.
 
 ## Quick start with pre-trained models
-Download [pre-trained models](https://drive.google.com/file/d/1Flw6Z0K2QdRrTn5F-gVt6HdR9TRPiaKy/view?usp=sharing), then run
+ParallelWaveGAN is used as the vocoder, so firstly please install [ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN) to try the [pre-trained models](https://drive.google.com/file/d/1Flw6Z0K2QdRrTn5F-gVt6HdR9TRPiaKy/view?usp=sharing):
 	
 	python convert_example.py -s {source-wav} -r {reference-wav} -c {converted-wavs-save-path} -m {model-path} 
 	
