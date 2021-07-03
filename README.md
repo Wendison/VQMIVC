@@ -8,7 +8,7 @@ This paper proposes a speech representation disentanglement framework for one-sh
 	<img src='./diagram/diagram.png' width=1000 >
 </p>
 
-If the code is used in your research, please star our repo and cite our paper:
+If the code is used in your research, please star our repo <a class="github-button" href="https://github.com/wendison/VQMIVC" data-icon="octicon-star" aria-label="Star wendison/VQMIVC on GitHub">Star</a> and cite our paper:
 ```
 @article{wang2021vqmivc,
   title={VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion},
