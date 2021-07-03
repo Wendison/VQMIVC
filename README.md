@@ -18,7 +18,7 @@ If the code is used in your research, please star our repo and cite our paper:
 }
 ```
 ## Requirements
-Python 3.6 is used, install [apex](https://github.com/NVIDIA/apex) for speeding up training, other requirements are listed in 'requirements.txt'
+Python 3.6 is used, install [apex](https://github.com/NVIDIA/apex) for speeding up training, other requirements are listed in 'requirements.txt':
 
 	pip install -r requirements.txt
 
