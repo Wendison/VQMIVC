@@ -8,7 +8,15 @@ This paper proposes a speech representation disentanglement framework for one-sh
 	<img src='./diagram/diagram.png' width=1000 >
 </p>
 
-
+If the code is used in your research, please star our repo and cite our paper:
+```
+@article{wang2021vqmivc,
+  title={VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion},
+  author={Wang, Disong and Deng, Liqun and Yeung, Yu Ting and Chen, Xiao and Liu, Xunying and Meng, Helen},
+  journal={arXiv preprint arXiv:2106.10132},
+  year={2021}
+}
+```
 ## Requirements
 Python 3.6 is used, install [apex](https://github.com/NVIDIA/apex) for speeding up training, other requirements are listed in 'requirements.txt'
 
@@ -53,17 +61,6 @@ The converted wav is put in 'converted' directory.
 
 		python convert.py checkpoint=checkpoints/useCSMIFalse_useCPMIFalse_usePSMIFalse_useAmpTrue/model.ckpt-500.pt
 	
-	
-## Citation
-If the code is used in your research, please star our repo and cite our paper:
-```
-@article{wang2021vqmivc,
-  title={VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion},
-  author={Wang, Disong and Deng, Liqun and Yeung, Yu Ting and Chen, Xiao and Liu, Xunying and Meng, Helen},
-  journal={arXiv preprint arXiv:2106.10132},
-  year={2021}
-}
-```
 
 ## Acknowledgements:
 * The content encoder is borrowed from [VectorQuantizedCPC](https://github.com/bshall/VectorQuantizedCPC), which also inspires the negative sampling within-utterance for CPC;
