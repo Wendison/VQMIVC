@@ -9,7 +9,7 @@ This paper proposes a speech representation disentanglement framework for *one-s
 </p>
 
 ## Requirements
-Python 3.6 is used, install [apex](https://github.com/NVIDIA/apex) for speeding up training, other requirements are listed in 'requirements.txt':
+Python 3.6 is used, install [apex](https://github.com/NVIDIA/apex) for speeding up training (optional), other requirements are listed in 'requirements.txt':
 
 	pip install -r requirements.txt
 
