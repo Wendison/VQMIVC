@@ -8,7 +8,7 @@ build:
     - soundfile==0.10.3.post1
     - tqdm==4.62.2
     - hydra-core==1.0.0
-    - torch==1.3.1
+    - torch==1.3.1+cu100 https://download.pytorch.org/whl/torch_stable.html
     - numpy==1.19.1
     - kaldiio==2.15.1
   system_packages:
