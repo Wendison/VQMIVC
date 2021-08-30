@@ -1,6 +1,7 @@
 build:
   python_version: "3.6"
   gpu: true
+  cuda: "10.1"
   python_packages:
     - wheel==0.37.0
     - pyworld==0.3.0
