@@ -1,6 +1,6 @@
 build:
   python_version: "3.6"
-  gpu: false
+  gpu: true
   python_packages:
     - wheel==0.37.0
     - pyworld==0.3.0
