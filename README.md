@@ -10,8 +10,8 @@ This paper proposes a speech representation disentanglement framework for *one-s
 
 ## Update
 Many thanks to [ericguizzo](https://github.com/ericguizzo)! 
-* 1. A [Replicate demo](https://replicate.ai/wendison/vqmivc) is provided, so you can play our pre-trained model online. Have fun! 
-* 2. VQMIVC can be trained and tested inside a Docker environment via [Cog](https://github.com/replicate/cog).
+1. A [Replicate demo](https://replicate.ai/wendison/vqmivc) is provided online, so you can play our pre-trained model there. Have fun! 
+2. VQMIVC can be trained and tested inside a Docker environment via [Cog](https://github.com/replicate/cog).
 
 ### TODO
 - [ ] Add more details on how to use [Cog](https://github.com/replicate/cog) for development
