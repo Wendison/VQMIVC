@@ -3,7 +3,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Wendison/VQMIVC?style=social)](https://github.com/Wendison/VQMIVC)
 [![download](https://img.shields.io/github/downloads/Wendison/VQMIVC/total.svg)](https://github.com/Wendison/VQMIVC/releases)
 
-### [Play VQMIVC on Replicate](https://replicate.ai/wendison/vqmivc)
+### [Run VQMIVC on Replicate](https://replicate.ai/wendison/vqmivc)
 
 ### [Pre-trained models](https://drive.google.com/file/d/1Flw6Z0K2QdRrTn5F-gVt6HdR9TRPiaKy/view?usp=sharing) | [Paper demo](https://wendison.github.io/VQMIVC-demo/)
 
