@@ -70,11 +70,13 @@ The converted wav is put in 'converted' directory.
 ## Citation
 If the code is used in your research, please <a class="github-button" href="https://github.com/wendison/VQMIVC" data-icon="octicon-star" aria-label="Star wendison/VQMIVC on GitHub">Star</a> our repo and cite our paper:
 ```
-@article{wang2021vqmivc,
-  title={VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion},
-  author={Wang, Disong and Deng, Liqun and Yeung, Yu Ting and Chen, Xiao and Liu, Xunying and Meng, Helen},
-  journal={arXiv preprint arXiv:2106.10132},
-  year={2021}
+@inproceedings{wang21n_interspeech,
+  author={Disong Wang and Liqun Deng and Yu Ting Yeung and Xiao Chen and Xunying Liu and Helen Meng},
+  title={{VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-Shot Voice Conversion}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={1344--1348},
+  doi={10.21437/Interspeech.2021-283}
 }
 ```
 
