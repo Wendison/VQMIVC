@@ -4,9 +4,8 @@ import os
 import subprocess
 import tempfile
 import zipfile
-from pathlib import Path
 
-import cog
+from cog import BasePredictor, Input, Path
 import kaldiio
 import numpy as np
 import pyworld as pw
@@ -59,7 +58,7 @@ def extract_logmel(wav_path, mean, std, sr=16000):
     return mel, lf0
 
 
-class Predictor(cog.Predictor):
+class Predictor(BasePredictor):
     def setup(self):
         """Load models"""
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -96,9 +95,11 @@ class Predictor(cog.Predictor):
         self.decoder = decoder
         self.device = device
 
-    @cog.input("input_source", type=Path, help="Source voice wav path")
-    @cog.input("input_reference", type=Path, help="Reference voice wav path")
-    def predict(self, input_source, input_reference):
+    def predict(
+        self,
+        input_source: Path = Input(description="Source voice wav path"),
+        input_reference: Path = Input(description="Reference voice wav path"),
+    ) -> Path:
         """Compute prediction"""
         # inference
         out_dir = Path(tempfile.mkdtemp())
